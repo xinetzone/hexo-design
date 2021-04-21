@@ -9,7 +9,6 @@ description: "利用可利用的，创造一切有意思的东西"
 author: 刘新伟
 language: zh-CN
 timezone: "Asia/Shanghai"
-html_lang: zh-CN
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -32,7 +31,7 @@ abbrlink:
   force: false #enable force mode,in this mode, the plugin will ignore the cache, and calc the abbrlink for every post even it already had abbrlink.
 permalink: :layout/:lang/:abbrlink.html # :year/:month/:day/:title/
 permalink_defaults:
-  lang: en-US # 设定默认
+  lang: zh-CN # 设定默认 en，en-US
 pretty_urls:
   trailing_index: false # Set to false to remove trailing 'index.html' from permalinks
   trailing_html: false # Set to false to remove trailing '.html' from permalinks
@@ -102,7 +101,7 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## updated_option supports 'mtime', 'date', 'empty'
-updated_option: "mtime"
+updated_option: "date"
 
 # Pagination
 ## Set per_page to 0 to disable pagination
